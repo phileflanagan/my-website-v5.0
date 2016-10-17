@@ -1,12 +1,12 @@
 #pf-skills {
-	background-color: #d0d0d0;
+	background-color: $skills-bgcolor;
   text-align: center;
 	h1 {
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		font-size: 28pt;
 		color: $secondary;
-		text-shadow: 0 2px rgba(0,0,0,0.5);
+		text-shadow: 0 2px $halfdark;
 	}
 }
 
@@ -25,7 +25,7 @@
 }
 
 .skill-box header {
-	background-color: $mid;
+	background-color: $skill-box-ribbon-color;
 	color: white;
 	text-transform: uppercase;
 	height: 30px;
@@ -39,7 +39,7 @@
 	top: 20px;
 	&:before {
 		content: "";
-		border-top: 5px solid darken($mid, 20);
+		border-top: 5px solid darken($skill-box-ribbon-color, 20);
 		border-left: 10px solid transparent;
 		position: absolute;
 		left: 0;
@@ -47,7 +47,7 @@
 	}
 	&:after {
 		content: "";
-		border-bottom: 30px solid $mid;
+		border-bottom: 30px solid $skill-box-ribbon-color;
 		border-right: 10px solid transparent;
 		position: absolute;
 		top: 0;

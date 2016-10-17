@@ -339,18 +339,18 @@ label.nav-toggle, #nav-toggle-cbox {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 32pt;
-    text-shadow: 0 2px rgba(0, 0, 0, 0.4); }
+    text-shadow: 0 2px rgba(0, 0, 0, 0.5); }
     .title-group h1 small {
       font-size: 22pt;
       font-family: "Gentium Basic", serif;
       text-transform: lowercase;
       text-shadow: none;
-      color: rgba(0, 0, 0, 0.4); }
+      color: rgba(0, 0, 0, 0.5); }
     .title-group h1:after {
       content: "v5.0";
       font-size: 12pt;
       text-shadow: none;
-      color: rgba(0, 0, 0, 0.4);
+      color: rgba(0, 0, 0, 0.5);
       letter-spacing: 0px;
       text-transform: none; }
   .title-group h1 ~ h2 {
@@ -358,7 +358,7 @@ label.nav-toggle, #nav-toggle-cbox {
     font-family: "Gentium Basic", serif;
     font-weight: lighter;
     font-style: italic;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.5);
     margin-top: -20pt; }
 
 #pf-skills {
@@ -430,7 +430,8 @@ label.nav-toggle, #nav-toggle-cbox {
 
 #pf-this-website footer {
   text-align: center;
-  font-size: 7pt;
+  font-size: 6pt;
+  letter-spacing: 1px;
   text-transform: uppercase;
-  color: rgba(245, 245, 245, 0.4);
+  color: rgba(245, 245, 245, 0.2);
   padding: 60px 0 10px; }

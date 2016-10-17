@@ -1,12 +1,12 @@
 body {
-	background-color: $white;
+	background-color: $body-bgcolor;
 }
 
 section {
 	position: relative;
 	padding: 70px 20px;
-	color: #888;
-	line-height: 1.5;
+	color: $font-color-main;
+	line-height: $line-height-main;
 }
 .container {
 	max-width: 1000px;

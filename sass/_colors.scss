@@ -1,10 +1,3 @@
-$gray: #ccc;
-$secondary: #ee8c6e;
-$bg-gradient-start: #eee;
-$bg-gradient-finish: #e0e0e0;
-$halfdark: rgba(0,0,0,0.4);
-$halflight: rgba(255,255,255,0.4);
-
 // Thematic Color Scheme
 $white: #f5f5f5;
 $dark: #35373d;
@@ -12,9 +5,11 @@ $mid: #5c698f;
 $light:	#99afef;
 $secondary: #ee8c6e;
 $dgray: #aaa;
+$halfdark: rgba(0,0,0,0.5);
+$font-color-main: #888;
 
-// Logo
-$css-logo-color: transparentize($white, 0.2);
+// Body
+$body-bgcolor: $white;
 
 // Nav Bar
 $logo-color: #5c698f;
@@ -24,3 +19,19 @@ $nav-link-color: rgba(0,0,0,0.35);
 $nav-link-hover-color: rgba(0,0,0,0.5);
 $nav-btn-color: #eee;
 $nav-btn-accent-color: #ccc;
+
+// Skills
+$skills-bgcolor: #d0d0d0;
+$bg-gradient-start: #eee;
+$bg-gradient-finish: #e0e0e0;
+$skill-box-ribbon-color: $mid;
+
+// Projects
+
+
+// About This Site
+
+// Logo
+$css-logo-color: transparentize($white, 0.2);
+// Footer
+$footer-color: transparentize($white, 0.8);
