@@ -483,14 +483,15 @@ label.nav-toggle, #nav-toggle-cbox {
   .contact ul li {
     display: inline-block; }
     .contact ul li a {
-      display: inline-block;
+      display: block;
       position: relative;
       color: #989ca6;
       text-decoration: none;
       -webkit-transition: all 200ms ease-in-out;
       transition: all 200ms ease-in-out;
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      z-index: 10; }
       .contact ul li a i {
         position: absolute;
         top: 50%;
