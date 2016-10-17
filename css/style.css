@@ -397,7 +397,8 @@ label.nav-toggle, #nav-toggle-cbox {
 
 #pf-skills {
   background-color: #d0d0d0;
-  text-align: center; }
+  text-align: center;
+  padding: 70px 0px 110px; }
   #pf-skills h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
