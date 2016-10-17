@@ -1,0 +1,62 @@
+#pf-skills {
+	background-color: #d0d0d0;
+	h1 {
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 28pt;
+		color: $secondary;
+		text-shadow: 0 2px rgba(0,0,0,0.5);
+	}
+}
+
+.skill-box {
+	position: relative;
+	display: inline-block;
+	background-color: $bg-gradient-start; //fallback
+	background: linear-gradient($bg-gradient-start, $bg-gradient-finish);
+	padding: 60px 20px 15px;
+	width: 30%;
+	min-width: 200px;
+	margin: 1.5%;
+	box-sizing: border-box;
+	border-radius: 4px;
+	box-shadow: 0 2px 0 rgba(0,0,0,0.2);
+}
+
+.skill-box header {
+	background-color: $mid;
+	color: white;
+	text-transform: uppercase;
+	height: 30px;
+	line-height: 30px;
+	font-size: 10px;
+	letter-spacing: 1px;
+	width: 90%;
+	text-align: center;
+	position: absolute;
+	left: -10px;
+	top: 20px;
+	&:before {
+		content: "";
+		border-top: 5px solid darken($mid, 20);
+		border-left: 10px solid transparent;
+		position: absolute;
+		left: 0;
+		bottom: -5px;
+	}
+	&:after {
+		content: "";
+		border-bottom: 30px solid $mid;
+		border-right: 10px solid transparent;
+		position: absolute;
+		top: 0;
+		right: -10px;
+	}
+}
+
+.skill-box ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	line-height: 1.5;
+}
