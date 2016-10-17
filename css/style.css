@@ -294,20 +294,20 @@ label.nav-toggle, #nav-toggle-cbox {
         -webkit-transition: 0s;
         transition: 0s; }
         #nav-links.collapse ul li:nth-child(1) {
-          -webkit-transition: all 100ms ease-in-out 400ms;
-          transition: all 100ms ease-in-out 400ms; }
+          -webkit-transition: all 50ms ease-in-out 200ms;
+          transition: all 50ms ease-in-out 200ms; }
         #nav-links.collapse ul li:nth-child(2) {
-          -webkit-transition: all 100ms ease-in-out 300ms;
-          transition: all 100ms ease-in-out 300ms; }
+          -webkit-transition: all 50ms ease-in-out 150ms;
+          transition: all 50ms ease-in-out 150ms; }
         #nav-links.collapse ul li:nth-child(3) {
-          -webkit-transition: all 100ms ease-in-out 200ms;
-          transition: all 100ms ease-in-out 200ms; }
+          -webkit-transition: all 50ms ease-in-out 100ms;
+          transition: all 50ms ease-in-out 100ms; }
         #nav-links.collapse ul li:nth-child(4) {
-          -webkit-transition: all 100ms ease-in-out 100ms;
-          transition: all 100ms ease-in-out 100ms; }
+          -webkit-transition: all 50ms ease-in-out 50ms;
+          transition: all 50ms ease-in-out 50ms; }
         #nav-links.collapse ul li:nth-child(5) {
-          -webkit-transition: all 100ms ease-in-out 0ms;
-          transition: all 100ms ease-in-out 0ms; }
+          -webkit-transition: all 50ms ease-in-out 0ms;
+          transition: all 50ms ease-in-out 0ms; }
         #nav-links.collapse ul li:hover {
           background-color: #ccc; }
       #nav-links.collapse ul:hover a:after, #nav-links.collapse ul:hover a:before {
