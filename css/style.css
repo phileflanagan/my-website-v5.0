@@ -523,7 +523,7 @@ label.nav-toggle, #nav-toggle-cbox {
   padding-bottom: 0; }
 
 #pf-this-website header {
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
 #pf-this-website footer {
   text-align: center;
@@ -539,6 +539,9 @@ label.nav-toggle, #nav-toggle-cbox {
 #pf-this-website ul {
   margin: 0;
   padding-left: 1.5em; }
+
+#pf-this-website .two-col {
+  margin-top: 20px; }
 
 #pf-this-website .src-btn {
   display: inline-block;

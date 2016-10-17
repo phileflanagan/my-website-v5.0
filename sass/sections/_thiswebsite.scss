@@ -5,7 +5,7 @@
 }
 
 #pf-this-website header {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 #pf-this-website footer {
   text-align: center;
@@ -30,6 +30,9 @@
   }
 }
 
+#pf-this-website .two-col {
+  margin-top: 20px;
+}
 #pf-this-website .src-btn {
   display: inline-block;
   border: 1px solid $this-website-font-color;
