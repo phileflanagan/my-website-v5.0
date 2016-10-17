@@ -15,6 +15,139 @@ section {
 .text-center {
   text-align: center; }
 
+#phil-flanagan-logo {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  width: 400px;
+  height: 250px;
+  color: rgba(245, 245, 245, 0.8); }
+
+#phil-flanagan-logo .triangle {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 2px solid rgba(245, 245, 245, 0.8);
+  border-bottom: transparent;
+  border-right: transparent;
+  width: 30px;
+  height: 30px; }
+
+#phil-flanagan-logo .triangle.big {
+  width: 100px;
+  height: 100px; }
+
+#phil-flanagan-logo .ex {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px; }
+  #phil-flanagan-logo .ex span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 2px;
+    background-color: rgba(245, 245, 245, 0.8);
+    -webkit-transform-origin: center;
+        -ms-transform-origin: center;
+            transform-origin: center; }
+    #phil-flanagan-logo .ex span:nth-child(1) {
+      -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+          -ms-transform: translate(-50%, -50%) rotate(-45deg);
+              transform: translate(-50%, -50%) rotate(-45deg); }
+    #phil-flanagan-logo .ex span:nth-child(2) {
+      -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          -ms-transform: translate(-50%, -50%) rotate(45deg);
+              transform: translate(-50%, -50%) rotate(45deg); }
+
+#phil-flanagan-logo .dots {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+      -ms-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+  width: 15px;
+  height: 15px; }
+  #phil-flanagan-logo .dots span {
+    position: absolute;
+    background-color: rgba(245, 245, 245, 0.8);
+    width: 2px;
+    height: 2px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%; }
+    #phil-flanagan-logo .dots span:nth-child(1) {
+      top: 0;
+      left: 0; }
+    #phil-flanagan-logo .dots span:nth-child(2) {
+      top: 0;
+      right: 0; }
+    #phil-flanagan-logo .dots span:nth-child(3) {
+      bottom: 0;
+      left: 0; }
+    #phil-flanagan-logo .dots span:nth-child(4) {
+      bottom: 0;
+      right: 0; }
+
+#phil-flanagan-logo .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Gentium Basic", serif;
+  font-style: italic;
+  font-size: 14pt;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 270px;
+  height: 68px;
+  line-height: 68px;
+  border-top: 2px solid rgba(245, 245, 245, 0.8);
+  border-bottom: 2px solid rgba(245, 245, 245, 0.8); }
+
+#phil-flanagan-logo .top {
+  top: 30px;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+      -ms-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg); }
+
+#phil-flanagan-logo .top.big {
+  top: 90px; }
+
+#phil-flanagan-logo .bottom {
+  top: 220px;
+  -webkit-transform: translate(-50%, -50%) rotate(-135deg);
+      -ms-transform: translate(-50%, -50%) rotate(-135deg);
+          transform: translate(-50%, -50%) rotate(-135deg); }
+
+#phil-flanagan-logo .bottom.big {
+  top: 160px; }
+
+#phil-flanagan-logo .top.ex {
+  top: 60px;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+#phil-flanagan-logo .bottom.ex {
+  top: 190px;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+#phil-flanagan-logo .dots.before {
+  left: 90px; }
+
+#phil-flanagan-logo .dots.after {
+  left: 310px; }
+
 .main-nav {
   z-index: 10;
   height: 50px;
@@ -289,3 +422,15 @@ label.nav-toggle, #nav-toggle-cbox {
   padding: 0;
   text-align: center;
   line-height: 1.5; }
+
+#pf-this-website {
+  background-color: #35373d;
+  color: #f5f5f5;
+  padding-bottom: 0; }
+
+#pf-this-website footer {
+  text-align: center;
+  font-size: 7pt;
+  text-transform: uppercase;
+  color: rgba(245, 245, 245, 0.4);
+  padding: 60px 0 10px; }

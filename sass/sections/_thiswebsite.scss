@@ -1,0 +1,13 @@
+#pf-this-website {
+  background-color: $dark;
+  color: $white;
+  padding-bottom: 0;
+}
+
+#pf-this-website footer {
+  text-align: center;
+  font-size: 7pt;
+  text-transform: uppercase;
+  color: transparentize($white, 0.7);
+  padding: 60px 0 10px;
+}

@@ -1,0 +1,126 @@
+#phil-flanagan-logo {
+	position: relative;
+  display: inline-block;
+	top: 0;
+	// transform: translate(-50%, -50%);
+	// background-color: #ddd;
+	width: 400px;
+	height: 250px;
+	color: $css-logo-color;
+}
+
+#phil-flanagan-logo .triangle {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid $css-logo-color;
+	border-bottom: transparent;
+	border-right: transparent;
+	width: 30px;
+	height: 30px;
+}
+
+#phil-flanagan-logo .triangle.big{
+	width: 100px;
+	height: 100px;
+}
+
+#phil-flanagan-logo .ex {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30px;
+	height: 30px;
+	span {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 30px;
+		height: 2px;
+		background-color: $css-logo-color;
+		transform-origin: center;
+		&:nth-child(1) {
+			transform: translate(-50%, -50%) rotate(-45deg);
+		}
+		&:nth-child(2) {
+			transform: translate(-50%, -50%) rotate(45deg);
+		}
+	}
+}
+
+#phil-flanagan-logo .dots {
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+	width: 15px;
+	height: 15px;
+	span {
+		position: absolute;
+		background-color: $css-logo-color;
+		width: 2px;
+		height: 2px;
+		border-radius: 50%;
+		&:nth-child(1) {
+			top: 0;
+			left: 0;
+		}
+		&:nth-child(2) {
+			top: 0;
+			right: 0;
+		}
+		&:nth-child(3) {
+			bottom: 0;
+			left: 0;
+		}
+		&:nth-child(4) {
+			bottom: 0;
+			right: 0;
+		}
+	}
+}
+
+#phil-flanagan-logo .logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+  font-family: $gentium;
+	font-style: italic;
+	font-size: 14pt;
+	letter-spacing: 1px;
+	text-align: center;
+	width: 270px;
+	height: 68px;
+	line-height: 68px;
+	border-top: 2px solid $css-logo-color;
+	border-bottom: 2px solid $css-logo-color;
+}
+
+#phil-flanagan-logo .top {
+	top: 30px;
+	transform: translate(-50%,-50%) rotate(45deg)
+}
+#phil-flanagan-logo .top.big {
+	top: 90px;
+}
+#phil-flanagan-logo .bottom {
+	top: 220px;
+	transform: translate(-50%,-50%) rotate(-135deg);
+}
+#phil-flanagan-logo .bottom.big {
+	top: 160px;
+}
+#phil-flanagan-logo .top.ex {
+	top: 60px;
+	transform: translate(-50%, -50%);
+}
+#phil-flanagan-logo .bottom.ex {
+	top: 190px;
+	transform: translate(-50%, -50%);
+}
+#phil-flanagan-logo .dots.before {
+	left: 90px;
+}
+#phil-flanagan-logo .dots.after {
+	left: 310px;
+}
