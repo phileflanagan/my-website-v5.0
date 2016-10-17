@@ -1,1 +1,1 @@
-My website v5.0. Available at [philunfiltered.com](http://philunfiltered.com) ... soon
+My website v5.0. Available at [philunfiltered.com](http://philunfiltered.com)
