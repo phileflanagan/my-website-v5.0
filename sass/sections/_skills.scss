@@ -6,7 +6,7 @@
 		letter-spacing: 1px;
 		font-size: 28pt;
 		color: $secondary;
-		text-shadow: 0 2px $halfdark;
+		text-shadow: 0 2px darken($skills-bgcolor, 40);
 	}
 }
 

@@ -403,7 +403,7 @@ label.nav-toggle, #nav-toggle-cbox {
     letter-spacing: 1px;
     font-size: 28pt;
     color: #ee8c6e;
-    text-shadow: 0 2px rgba(0, 0, 0, 0.5); }
+    text-shadow: 0 2px #6a6a6a; }
 
 .skill-box {
   position: relative;
@@ -456,6 +456,64 @@ label.nav-toggle, #nav-toggle-cbox {
   padding: 0;
   text-align: center;
   line-height: 1.5; }
+
+#pf-contact {
+  background-color: #3d3735; }
+
+.contact h1 {
+  color: #ee8c6e;
+  text-shadow: 0 2px #2f2b29;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px;
+  text-align: center;
+  min-width: 100%; }
+  .contact ul li {
+    display: inline-block; }
+    .contact ul li a {
+      display: inline-block;
+      position: relative;
+      color: #989ca6;
+      text-decoration: none;
+      -webkit-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out;
+      width: 150px;
+      height: 150px; }
+      .contact ul li a i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        font-size: 100px;
+        -webkit-transition: all 200ms ease-in-out;
+        transition: all 200ms ease-in-out; }
+      .contact ul li a span {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        width: 150px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding-top: 5px; }
+      .contact ul li a:hover {
+        color: #b4b6bd; }
+        .contact ul li a:hover i {
+          top: 40%; }
+        .contact ul li a:hover span {
+          color: #ee8c6e;
+          border-top: 3px solid #ee8c6e; }
 
 #pf-this-website {
   background-color: #35373d;

@@ -29,6 +29,12 @@ $skill-box-ribbon-color: $mid;
 // Projects
 
 
+// contact
+$contact-bgcolor: #3d3735;
+$contact-sq-color: lighten($dark,40);
+$contact-sq-hover-color: lighten($contact-sq-color, 10);
+$contact-sq-accent-color: $secondary;
+
 // About This Site
 $this-website-font-color: transparentize($white, 0.2);
 $this-website-bgcolor: $dark;
