@@ -464,7 +464,8 @@ label.nav-toggle, #nav-toggle-cbox {
 .contact h1 {
   color: #ee8c6e;
   text-shadow: 0 2px #2f2b29;
-  font-size: 50px;
+  font-size: 28pt;
+  text-transform: uppercase;
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px; }
