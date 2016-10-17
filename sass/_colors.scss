@@ -30,7 +30,8 @@ $skill-box-ribbon-color: $mid;
 
 
 // About This Site
-
+$this-website-font-color: transparentize($white, 0.2);
+$this-website-bgcolor: $dark;
 // Logo
 $css-logo-color: transparentize($white, 0.2);
 // Footer

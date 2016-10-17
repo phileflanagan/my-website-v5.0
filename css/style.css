@@ -1,25 +1,59 @@
 @import url("https://fonts.googleapis.com/css?family=Gentium+Basic");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 body {
   background-color: #f5f5f5; }
 
 section {
   position: relative;
   padding: 70px 20px;
+  font-family: "Raleway", sans-serif;
   color: #888;
   line-height: 1.5; }
+  section a {
+    text-decoration: none;
+    color: inherit; }
 
 .container {
   max-width: 1000px;
   margin: 0 auto; }
 
+.two-col {
+  position: relative;
+  display: block;
+  width: 50%;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 20px; }
+
+@media (max-width: 768px) {
+  .two-col {
+    width: 100%;
+    float: none; } }
+
 .text-center {
   text-align: center; }
 
+.group:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0; }
+
+* html .group {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .group {
+  zoom: 1; }
+
+/* IE7 */
 #phil-flanagan-logo {
   position: relative;
   display: inline-block;
   top: 0;
-  width: 400px;
+  width: 300px;
   height: 250px;
   color: rgba(245, 245, 245, 0.8); }
 
@@ -143,10 +177,10 @@ section {
           transform: translate(-50%, -50%); }
 
 #phil-flanagan-logo .dots.before {
-  left: 90px; }
+  left: 40px; }
 
 #phil-flanagan-logo .dots.after {
-  left: 310px; }
+  left: 260px; }
 
 .main-nav {
   z-index: 10;
@@ -425,8 +459,11 @@ label.nav-toggle, #nav-toggle-cbox {
 
 #pf-this-website {
   background-color: #35373d;
-  color: #f5f5f5;
+  color: rgba(245, 245, 245, 0.8);
   padding-bottom: 0; }
+
+#pf-this-website header {
+  margin-bottom: 50px; }
 
 #pf-this-website footer {
   text-align: center;
@@ -435,3 +472,22 @@ label.nav-toggle, #nav-toggle-cbox {
   text-transform: uppercase;
   color: rgba(245, 245, 245, 0.2);
   padding: 60px 0 10px; }
+
+#pf-this-website h4 {
+  margin: 5px 0; }
+
+#pf-this-website ul {
+  margin: 0;
+  padding-left: 1.5em; }
+
+#pf-this-website .src-btn {
+  display: inline-block;
+  border: 1px solid rgba(245, 245, 245, 0.8);
+  padding: 10px 20px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out; }
+  #pf-this-website .src-btn:hover {
+    background-color: rgba(245, 245, 245, 0.8);
+    color: #35373d; }

@@ -1,9 +1,12 @@
 #pf-this-website {
-  background-color: $dark;
-  color: $white;
+  background-color: $this-website-bgcolor;
+  color: $this-website-font-color;
   padding-bottom: 0;
 }
 
+#pf-this-website header {
+  margin-bottom: 50px;
+}
 #pf-this-website footer {
   text-align: center;
   font-size: 6pt;
@@ -11,4 +14,30 @@
   text-transform: uppercase;
   color: $footer-color;
   padding: 60px 0 10px;
+}
+
+#pf-this-website h4 {
+  margin: 5px 0;
+}
+
+#pf-this-website ul {
+  // list-style: none;
+  margin: 0;
+  padding-left: 1.5em;
+  li {
+    &:before {
+    }
+  }
+}
+
+#pf-this-website .src-btn {
+  display: inline-block;
+  border: 1px solid $this-website-font-color;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 200ms ease-in-out;
+  &:hover {
+    background-color: $this-website-font-color;
+    color: $this-website-bgcolor;
+  }
 }

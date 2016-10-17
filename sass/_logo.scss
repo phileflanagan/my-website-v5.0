@@ -2,9 +2,7 @@
 	position: relative;
   display: inline-block;
 	top: 0;
-	// transform: translate(-50%, -50%);
-	// background-color: #ddd;
-	width: 400px;
+	width: 300px;
 	height: 250px;
 	color: $css-logo-color;
 }
@@ -119,8 +117,8 @@
 	transform: translate(-50%, -50%);
 }
 #phil-flanagan-logo .dots.before {
-	left: 90px;
+	left: 40px;
 }
 #phil-flanagan-logo .dots.after {
-	left: 310px;
+	left: 260px;
 }
