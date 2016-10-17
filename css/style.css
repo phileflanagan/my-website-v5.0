@@ -342,6 +342,10 @@ label.nav-toggle, #nav-toggle-cbox {
     #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(5) {
       -webkit-transition: all 100ms ease-in-out 400ms;
       transition: all 100ms ease-in-out 400ms; }
+    #nav-toggle-cbox:checked ~ .collapse ul li a {
+      display: block;
+      padding: 0px 20px;
+      width: 100%; }
   #nav-toggle-cbox {
     display: none; } }
 

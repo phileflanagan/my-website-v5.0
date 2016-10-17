@@ -163,6 +163,11 @@ label.nav-toggle, #nav-toggle-cbox {
         &:nth-child(5) {
           transition: all 100ms ease-in-out 400ms;
         }
+				a {
+					display: block;
+					padding: 0px 20px;
+					width: 100%;
+				}
       }
     }
   }
