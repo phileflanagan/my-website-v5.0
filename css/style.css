@@ -199,6 +199,9 @@ section {
   letter-spacing: 3px;
   font-style: italic;
   color: #5c698f; }
+  .main-nav figure a {
+    text-decoration: none;
+    color: inherit; }
 
 #nav-links {
   position: relative;
