@@ -2,7 +2,8 @@
 	position: relative;
   display: inline-block;
 	top: 0;
-	width: 300px;
+	max-width: 300px;
+	width: 100%;
 	height: 250px;
 	color: $css-logo-color;
 }
@@ -49,7 +50,7 @@
 #phil-flanagan-logo .dots {
 	position: absolute;
 	top: 50%;
-	transform: translate(-50%, -50%) rotate(45deg);
+	transform: translateY(-50%) rotate(45deg);
 	width: 15px;
 	height: 15px;
 	span {
@@ -87,7 +88,7 @@
 	font-size: 14pt;
 	letter-spacing: 1px;
 	text-align: center;
-	width: 270px;
+	width: 100%;
 	height: 68px;
 	line-height: 68px;
 	border-top: 2px solid $css-logo-color;
@@ -117,8 +118,8 @@
 	transform: translate(-50%, -50%);
 }
 #phil-flanagan-logo .dots.before {
-	left: 40px;
+	left: 10%;
 }
 #phil-flanagan-logo .dots.after {
-	left: 260px;
+	left: 85%;
 }
