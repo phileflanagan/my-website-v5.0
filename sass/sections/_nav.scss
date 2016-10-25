@@ -179,6 +179,11 @@ label.nav-toggle, #nav-toggle-cbox {
     }
   }
 
+  #nav-toggle-cbox:checked ~ .overlay {
+		pointer-events: auto;
+
+	}
+
   // Hide Checkbox
   #nav-toggle-cbox {
     display: none;

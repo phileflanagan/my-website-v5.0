@@ -362,6 +362,8 @@ label.nav-toggle, #nav-toggle-cbox {
         display: block;
         padding: 0px 20px;
         width: 100%; }
+  #nav-toggle-cbox:checked ~ .overlay {
+    pointer-events: auto; }
   #nav-toggle-cbox {
     display: none; } }
 
