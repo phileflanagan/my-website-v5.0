@@ -94,6 +94,7 @@ label.nav-toggle, #nav-toggle-cbox {
   }
 
   #nav-links.collapse {
+		position: relative;
     display: block;
     width: 100%;
     ul {
@@ -102,6 +103,7 @@ label.nav-toggle, #nav-toggle-cbox {
       min-width: 100%;
       perspective: 300px;
       perspective-origin: right;
+			left: 100%;
       li {
         position: relative;
         display: block;
@@ -150,6 +152,7 @@ label.nav-toggle, #nav-toggle-cbox {
   }
   #nav-toggle-cbox:checked ~ .collapse {
     ul {
+			left: 0;
       li {
         transform: rotateY(0deg);
         &:nth-child(1) {

@@ -1,5 +1,7 @@
 body {
+	position: relative;
 	background-color: $body-bgcolor;
+	z-index: 1;
 }
 
 section {
@@ -26,6 +28,13 @@ section {
 	float: left;
 	box-sizing: border-box;
 	padding: 10px 20px;
+}
+
+.overlay {
+    height:0px;
+    overflow:visible;
+    pointer-events:none;
+    background:none !important;
 }
 
 @media (max-width: 768px) {

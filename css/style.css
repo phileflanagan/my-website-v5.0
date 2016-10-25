@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Gentium+Basic");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 body {
-  background-color: #444; }
+  position: relative;
+  background-color: #444;
+  z-index: 1; }
 
 section {
   position: relative;
@@ -25,6 +27,12 @@ section {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 10px 20px; }
+
+.overlay {
+  height: 0px;
+  overflow: visible;
+  pointer-events: none;
+  background: none !important; }
 
 @media (max-width: 768px) {
   .two-col {
@@ -275,6 +283,7 @@ label.nav-toggle, #nav-toggle-cbox {
       label.nav-toggle span:nth-child(3) {
         top: 25px; }
   #nav-links.collapse {
+    position: relative;
     display: block;
     width: 100%; }
     #nav-links.collapse ul {
@@ -284,7 +293,8 @@ label.nav-toggle, #nav-toggle-cbox {
       -webkit-perspective: 300px;
               perspective: 300px;
       -webkit-perspective-origin: right;
-              perspective-origin: right; }
+              perspective-origin: right;
+      left: 100%; }
       #nav-links.collapse ul li {
         position: relative;
         display: block;
@@ -328,28 +338,30 @@ label.nav-toggle, #nav-toggle-cbox {
     top: 20px; }
   #nav-toggle-cbox:checked + label.nav-toggle span:nth-child(2) {
     background-color: transparent; }
-  #nav-toggle-cbox:checked ~ .collapse ul li {
-    -webkit-transform: rotateY(0deg);
-            transform: rotateY(0deg); }
-    #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(1) {
-      -webkit-transition: all 100ms ease-in-out 0ms;
-      transition: all 100ms ease-in-out 0ms; }
-    #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(2) {
-      -webkit-transition: all 100ms ease-in-out 100ms;
-      transition: all 100ms ease-in-out 100ms; }
-    #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(3) {
-      -webkit-transition: all 100ms ease-in-out 200ms;
-      transition: all 100ms ease-in-out 200ms; }
-    #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(4) {
-      -webkit-transition: all 100ms ease-in-out 300ms;
-      transition: all 100ms ease-in-out 300ms; }
-    #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(5) {
-      -webkit-transition: all 100ms ease-in-out 400ms;
-      transition: all 100ms ease-in-out 400ms; }
-    #nav-toggle-cbox:checked ~ .collapse ul li a {
-      display: block;
-      padding: 0px 20px;
-      width: 100%; }
+  #nav-toggle-cbox:checked ~ .collapse ul {
+    left: 0; }
+    #nav-toggle-cbox:checked ~ .collapse ul li {
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg); }
+      #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(1) {
+        -webkit-transition: all 100ms ease-in-out 0ms;
+        transition: all 100ms ease-in-out 0ms; }
+      #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(2) {
+        -webkit-transition: all 100ms ease-in-out 100ms;
+        transition: all 100ms ease-in-out 100ms; }
+      #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(3) {
+        -webkit-transition: all 100ms ease-in-out 200ms;
+        transition: all 100ms ease-in-out 200ms; }
+      #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(4) {
+        -webkit-transition: all 100ms ease-in-out 300ms;
+        transition: all 100ms ease-in-out 300ms; }
+      #nav-toggle-cbox:checked ~ .collapse ul li:nth-child(5) {
+        -webkit-transition: all 100ms ease-in-out 400ms;
+        transition: all 100ms ease-in-out 400ms; }
+      #nav-toggle-cbox:checked ~ .collapse ul li a {
+        display: block;
+        padding: 0px 20px;
+        width: 100%; }
   #nav-toggle-cbox {
     display: none; } }
 
@@ -477,13 +489,12 @@ label.nav-toggle, #nav-toggle-cbox {
   text-align: center;
   line-height: 1.5; }
 
-body {
+#pf-projects {
   background: -webkit-radial-gradient(circle, #a49a6d, #4d5d46);
   background: radial-gradient(circle, #a49a6d, #4d5d46);
   background-size: 500% 500%;
   -webkit-animation: bgmove 5s linear infinite;
-          animation: bgmove 5s linear infinite;
-  height: 100vh; }
+          animation: bgmove 5s linear infinite; }
 
 .me-main {
   color: #f5f5f5;
@@ -624,7 +635,9 @@ a.disabledgh:hover {
     max-width: 100%; }
     .project-wrapper .project {
       display: block;
-      margin: 0 auto; } }
+      margin: 0 auto; }
+    .project-wrapper .project-info h1 span {
+      display: block; } }
 
 @-webkit-keyframes bgmove {
   0% {
