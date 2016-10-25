@@ -216,6 +216,9 @@ section {
   float: right;
   top: 0; }
 
+#nav-toggle-cbox ~ .overlay {
+  pointer-events: auto; }
+
 .main-nav ul {
   list-style: none;
   margin: 0;
