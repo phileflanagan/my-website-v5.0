@@ -477,6 +477,179 @@ label.nav-toggle, #nav-toggle-cbox {
   text-align: center;
   line-height: 1.5; }
 
+body {
+  background: -webkit-radial-gradient(circle, #a49a6d, #4d5d46);
+  background: radial-gradient(circle, #a49a6d, #4d5d46);
+  background-size: 500% 500%;
+  -webkit-animation: bgmove 5s linear infinite;
+          animation: bgmove 5s linear infinite;
+  height: 100vh; }
+
+.me-main {
+  color: #f5f5f5;
+  text-align: center; }
+
+.box-header {
+  display: inline-block;
+  color: #f5f5f5;
+  font-size: 20pt;
+  text-transform: uppercase;
+  letter-spacing: 5pt;
+  border: 5px solid #f5f5f5;
+  padding: 8px 10px;
+  padding-left: -webkit-calc(10px + 5pt);
+  padding-left: calc(10px + 5pt); }
+
+.project-wrapper {
+  min-width: 768px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-left: 1px solid #f5f5f5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.project {
+  cursor: pointer;
+  display: inline-block;
+  width: -webkit-calc(32% - 60px);
+  width: calc(32% - 60px);
+  min-width: 150px;
+  padding: 10px;
+  margin: 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: transparent;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+  .project:hover {
+    background-color: #f5f5f5;
+    color: #666; }
+  .project:active {
+    background-color: #e0e0e0;
+    color: #666; }
+
+input[name=project-radio], input[name=project-radio] ~ .project-info {
+  display: none; }
+
+input[id=project-radio1]:checked ~ #project-info1 {
+  display: block; }
+
+input[id=project-radio2]:checked ~ #project-info2 {
+  display: block; }
+
+input[id=project-radio3]:checked ~ #project-info3 {
+  display: block; }
+
+input[name=project-radio]:checked + label {
+  border-bottom: 1px solid #f5f5f5; }
+
+.project-info {
+  text-align: left;
+  padding: 10px 20px; }
+  .project-info h1 {
+    font-size: 20pt; }
+    .project-info h1 span {
+      font-size: 10pt; }
+  .project-info p {
+    line-height: 1.5; }
+  .project-info a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 10pt;
+    border: 1px solid #f5f5f5;
+    width: 90px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block; }
+    .project-info a:hover {
+      background-color: #f5f5f5;
+      color: #666; }
+  .project-info ul {
+    list-style: none;
+    padding: 0; }
+    .project-info ul > li {
+      display: inline-block;
+      margin: 5px;
+      font-size: 6pt;
+      text-transform: uppercase;
+      letter-spacing: 1.3pt; }
+
+a.disabled {
+  opacity: 0.4; }
+
+a.disabledgh:hover {
+  position: relative; }
+  a.disabledgh:hover:before {
+    content: "";
+    background-color: white;
+    border: 1px solid transparent;
+    border-left: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotateZ(-45deg);
+        -ms-transform: translateX(-50%) rotate(-45deg);
+            transform: translateX(-50%) rotateZ(-45deg);
+    z-index: 1; }
+  a.disabledgh:hover:after {
+    content: "repo is private, contact me";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 8pt;
+    width: 150px;
+    height: 22px;
+    line-height: 20px;
+    color: #666;
+    background-color: white;
+    text-align: center;
+    z-index: 2;
+    -webkit-border-radius: 4px;
+            border-radius: 4px; }
+
+@media (max-width: 768px) {
+  .project-wrapper {
+    min-width: 100%;
+    max-width: 100%; }
+    .project-wrapper .project {
+      display: block;
+      margin: 0 auto; } }
+
+@-webkit-keyframes bgmove {
+  0% {
+    background-position: 0% 0%; }
+  25% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 50% 50%; }
+  75% {
+    background-position: 50% 0%; }
+  100% {
+    background-position: 0% 0%; } }
+
+@keyframes bgmove {
+  0% {
+    background-position: 0% 0%; }
+  25% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 50% 50%; }
+  75% {
+    background-position: 50% 0%; }
+  100% {
+    background-position: 0% 0%; } }
+
 #pf-contact {
   background-color: #3d3735; }
 
