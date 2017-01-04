@@ -10,6 +10,8 @@
 		text-shadow: 0 2px darken($workingon-bgcolor, 40);
 	}
   h2 {
+    margin: 0;
+    margin-top: 3rem;
     color: $dgray;
   }
 }
@@ -110,3 +112,5 @@
 
 #card-1 .thumb { background-image: url('/img/js30/Day1-800-450.jpg'); }
 #card-2 .thumb { background-image: url('/img/js30/Day2-800-450.jpg'); }
+
+#card2-1 .thumb { background-image: url('/img/weekend/Weekend1-800-450.jpg'); }

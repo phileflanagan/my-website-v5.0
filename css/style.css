@@ -678,6 +678,8 @@ a.disabledgh:hover {
     font-size: 28pt;
     text-shadow: 0 2px black; }
   #pf-workingon h2 {
+    margin: 0;
+    margin-top: 3rem;
     color: #aaa; }
 
 .card-gallery {
@@ -783,6 +785,9 @@ a.disabledgh:hover {
 
 #card-2 .thumb {
   background-image: url("/img/js30/Day2-800-450.jpg"); }
+
+#card2-1 .thumb {
+  background-image: url("/img/weekend/Weekend1-800-450.jpg"); }
 
 #pf-contact {
   background-color: #3d3735; }
