@@ -24,9 +24,10 @@
 	width: 100%;
 }
 .card {
-	width: 350px;
+	width: 300px;
   position: relative;
   overflow: hidden;
+	margin: 10px 10px;
 
   &:hover {
     .thumb-overlay {
@@ -93,7 +94,7 @@
 		}
 
     p {
-
+			margin: 0;
     }
 
     ul.skills {
@@ -112,5 +113,7 @@
 
 #card-1 .thumb { background-image: url('/img/js30/Day1-800-450.jpg'); }
 #card-2 .thumb { background-image: url('/img/js30/Day2-800-450.jpg'); }
+#card-3 .thumb { background-image: url('/img/js30/Day3-800-450.jpg'); }
+
 
 #card2-1 .thumb { background-image: url('/img/weekend/Weekend1-800-450.jpg'); }
