@@ -783,6 +783,17 @@ a.disabledgh:hover {
         display: inline-block;
         margin-right: 0.4em; }
 
+.card.large {
+  width: 450px; }
+  .card.large .thumb {
+    height: 240px; }
+
+#card3-1 .thumb {
+  background-image: url("/img/pp/philinthekitchen.jpg"); }
+
+#card3-2 .thumb {
+  background-image: url("/img/pp/letiequalzeroblog.jpg"); }
+
 #card-1 .thumb {
   background-image: url("/img/js30/Day1-800-450.jpg"); }
 
@@ -796,7 +807,8 @@ a.disabledgh:hover {
   background-image: url("/img/weekend/Weekend1-800-450.jpg"); }
 
 #pf-contact {
-  background-color: #3d3735; }
+  background-color: #3d3735;
+  text-align: center; }
 
 .contact h1 {
   color: #ee8c6e;
@@ -854,6 +866,12 @@ a.disabledgh:hover {
         .contact ul li a:hover span {
           color: #ee8c6e;
           border-top: 3px solid #ee8c6e; }
+
+.proof {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 700px;
+  width: 100%; }
 
 #pf-this-website {
   background-color: #35373d;
