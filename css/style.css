@@ -191,6 +191,64 @@ section {
 #phil-flanagan-logo .dots.after {
   left: 85%; }
 
+.konami {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 999; }
+
+.konami img {
+  position: relative;
+  max-width: 100%;
+  height: auto; }
+
+.konami .img-wrap {
+  display: inline-block;
+  position: relative;
+  margin: 2rem;
+  cursor: pointer; }
+
+.konami .img-wrap::after {
+  content: "\d7";
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 2rem;
+  height: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+  border: 0.2rem solid white;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+
+.konami .img-wrap:hover::after {
+  background-color: rgba(70, 70, 70, 0.6); }
+
 .main-nav {
   z-index: 11;
   height: 50px;
@@ -895,6 +953,9 @@ a.disabledgh:hover {
 #pf-this-website ul {
   margin: 0;
   padding-left: 1.5em; }
+
+#pf-this-website small {
+  font-size: 0.7rem; }
 
 #pf-this-website .two-col {
   margin-top: 20px; }
