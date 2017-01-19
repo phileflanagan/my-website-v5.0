@@ -847,7 +847,7 @@ a.disabledgh:hover {
     height: 240px; }
 
 #card3-1 .thumb {
-  background-image: url("/img/pp/philinthekitchen.jpg"); }
+  background-image: url("/img/pp/philinthekitchen2.jpg"); }
 
 #card3-2 .thumb {
   background-image: url("/img/pp/letiequalzeroblog.jpg"); }
@@ -866,6 +866,9 @@ a.disabledgh:hover {
 
 #card2-2 .thumb {
   background-image: url("/img/weekend/Weekend2-800-450.jpg"); }
+
+#card2-3 .thumb {
+  background-image: url("/img/weekend/Weekend3-800-450.jpg"); }
 
 #pf-contact {
   background-color: #3d3735;
